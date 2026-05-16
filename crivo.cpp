@@ -4,7 +4,7 @@
 int main()
 {
 int n;
-std::cout << "\nDigite n primeiros números primos: ";
+std::cout << "\nDefina o limite: ";
 std::cin  >> n;
 int raiz = sqrt(n) + 1;
 std::vector<bool> lista(n+1,true);
